@@ -1,0 +1,10 @@
+{
+    "webApi": "",
+    "logLevel": "debug",
+    "authorization": {
+        "appId": "",
+        "appSecret": "",
+        "zeusHost": "",
+        "ziy": ""
+    }
+}

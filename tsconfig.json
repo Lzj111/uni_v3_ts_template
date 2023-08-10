@@ -1,0 +1,16 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.json",
+	"suppressImplicitAnyIndexErrors": true,
+	"compilerOptions": {
+		"allowJs": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"lib": ["esnext", "dom"],
+		"types": ["@dcloudio/types"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+	"exclude": ["node_modules", "unpackage", "src/**/*.nvue"]
+}
